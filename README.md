@@ -1,6 +1,6 @@
 # Call Center Optimization
 
-The objective is to create a robust ML system leveraging call center data to enhance the efficacy of marketing campaigns targeting term deposit sales for a leading European banking institution. The strategy involves constructing an ML model capable of prioritizing customers based on their probability of responding positively to the term deposit offer. By generating a ranked list of prospects, the aim is to elevate the success rate by optimizing the ratio of successful sales to the total number of outreach attempts.
+The objective is to create a robust ML system leveraging call center data to **enhance the efficacy of marketing campaigns** targeting term deposit sales for a leading European banking institution. The strategy involves constructing an ML model capable of prioritizing customers based on their probability of responding positively to the term deposit offer. By generating a ranked list of prospects, the aim is to elevate the success rate by optimizing the ratio of successful sales to the total number of outreach attempts.
 
 ## Model Performance
 
