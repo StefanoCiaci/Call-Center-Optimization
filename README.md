@@ -4,6 +4,16 @@ The objective is to create a robust ML system leveraging call center data to enh
 
 ## Model Performance
 
+![Alt text](/Charts/lift_chart.png?raw=true)
+
+The model demonstrates an accuracy of **14%** in identifying customers likely to subscribe to a term loan within the top 10% of the highest ranked potential customers, peaking at **25%** accuracy. It's important to note that this represents a significant improvement over the baseline accuracy of **7%**.
+
+![Alt text](/Charts/gain_chart.png?raw=true)
+
+The efficiency of customer outreach facilitated by the model is **twice as effective** as the baseline within the top 10% of the highest ranked potential customers. Additionally, by reaching out to just **31%** of the total list of potential customers, **50%** of the total amount of possible subscribers to a term loan can be successfully contacted.
+
+Furthermore, the model includes a feature importance analysis tool that not only enriches the depth of insights garnered from the overall analysis but also presents valuable avenues for refining business strategies and decision-making processes. Notably, the balance commands **46%** of the decision-making weight within the model, while the age accounts for **25%** of this weight, indicating their significant influence.
+
 ## Notebooks Description
 
 - **Data Preprocessing:**
