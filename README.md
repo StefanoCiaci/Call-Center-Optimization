@@ -14,7 +14,7 @@ The data preprocessing pipeline is designed for CSV-format data. It incorporates
 
 The dataset undergoes thorough examination, encompassing the analysis of variable distributions, scrutiny of outliers, and exploration of internal correlations.
 
-- **ML Modeling:**
+- **Modeling:**
 
 An ensemble of Random Forest Classifiers, called *Ecosystem Classifier*, is constructed using Bayesian optimization. Initially, a loss function is optimized using Bayesian techniques across a predefined number of runs. The chosen loss function prioritizes maximizing the F1 Score through cross-validation, with a focus on optimizing True outputs, thus employing Macro averaging. Throughout each optimization run, a Random Forest classifier is trained, and the best-performing parameters from each run are preserved. Subsequently, top-performing models are selected based on their cross-validation scores, serving as weights. Finally, an instance of the Ecosystem Classifier is constructed, encapsulating these selected models along with their respective weights.
 
